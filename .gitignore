@@ -1,0 +1,24 @@
+# --- Custom Library Path ---
+# This prevents your 100MB+ of installed libraries from being uploaded
+Z:/Python/
+Python/
+
+# --- Database & Local Data ---
+# We keep the code on GitHub, but the data stays local for security/size
+*.db
+*.sqlite
+raw_data/
+*.csv
+
+# --- Python System Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- VS Code & OS Junk ---
+.vscode/
+.DS_Store
+Thumbs.db
